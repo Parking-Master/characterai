@@ -22,8 +22,6 @@ To get this info, go to your character's chat page and open the [web console](ht
 
 Make sure you're on another chat page, not the default. For example, the URL should show "/chat2?char=..." instead of "/chat?char=...".
 
-Then reload the page.
-
 Then, go to the _Network_ tab, reload the page, search for "ws" and click on the neo.character.ai request. This is where all the info is. Send a message to your character to show the info.
 
 Then do the following steps to get the info you need.
@@ -35,7 +33,7 @@ Go to _Cookies_, and go to the root URL. Then, in the tables show all the cookie
 The character's ID is shown in the URL of the chat page. The "char" parameter contains the id. For example:
 > https://beta.character.ai/chat2?char=6HhWfeDjetnxESEcThlBQtEUo0O8YHcXyHqCgN7b2hY
 
-"6HhWfeDjetnxESEcThlBQtEUo0O8YHcXyHqCgN7b2hY" is the chaarcter ID.
+"6HhWfeDjetnxESEcThlBQtEUo0O8YHcXyHqCgN7b2hY" is the character ID.
 
 #### Chat ID
 Send a message to your character and the info will be displayed in the console. Grab the value of "chat_id" and you're good to go.
